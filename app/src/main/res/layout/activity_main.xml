@@ -6,9 +6,27 @@
     android:orientation="vertical"
     tools:context="com.deanxd.elegantclock.MainActivity">
 
-    <com.deanxd.elegantclock.view.ClockPannelView
+<!--    <com.deanxd.elegantclock.view.ClockPannelView
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:layout_gravity="center" />
+        android:layout_gravity="center" />-->
+
+    <FrameLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center">
+
+        <com.deanxd.elegantclock.view.ClockDialView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center" />
+
+        <com.deanxd.elegantclock.view.PointerView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
 
 </LinearLayout>
